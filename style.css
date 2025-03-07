@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.like-btn {
+  background-color: #f8f9fa;
+  border: 2px solid #ccc;
+}
+
+.dislike-btn {
+  background-color: #f8f9fa;
+  border: 2px solid #ccc;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 80px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+}
+
+.comment-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.comment-buttons button {
+  background-color: #444;
+  color: white;
+  font-size: 16px;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.comment-buttons button:hover {
+  background-color: #333;
+}
+
+.comment {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  background-color: #ff4444;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.reset-btn:hover {
+  background-color: #cc0000;
+}
